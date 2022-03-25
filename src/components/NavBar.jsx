@@ -8,9 +8,9 @@ const NavBar = () => {
 
         <>
         <button type='button'> <Link to="/home"> Home </Link> </button>
-        <button type='button'> <Link to="/home"> By Title </Link> </button>
-        <button type='button'> <Link to="/home"> Film List </Link> </button>
-        <button type='button'> <Link to="/home"> Director </Link> </button>
+        <button type='button'> <Link to="/title"> By Title </Link> </button>
+        <button type='button'> <Link to="/list"> Film List </Link> </button>
+        <button type='button'> <Link to="/director"> Director </Link> </button>
         </>
 
      );

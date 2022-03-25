@@ -13,6 +13,7 @@ const Login = () => {
 
         <>
         
+        <br />
         <input type="text" placeholder="Enter username" value={username} onChange={(event)  => {setUsername(event.target.value)}}/>
         <br />
         <input type="password" placeholder="Enter password" value={password} onChange={(event) => {setPassword(event.target.value)}} />
